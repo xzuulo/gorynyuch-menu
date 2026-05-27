@@ -1,0 +1,48 @@
+.dishInfo{
+    display: inline-block;
+    color: black;
+    cursor: pointer;
+}
+.dish{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    padding: 10px;
+    width: 300px;
+}
+.selected{
+    background-color: darkorange;
+}
+.adds{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.add{
+    display: inline;
+    background-color: white;
+    cursor: pointer;
+}
+.selectedAdd{
+    background-color: orangered;
+}
+body{
+    background-color: moccasin;
+}
+*{
+    user-select: none;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.knopka{
+    cursor: pointer;
+    background-color: white;
+    display: inline;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+}

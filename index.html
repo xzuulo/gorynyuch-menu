@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <h3>Гриль</h3>
+        <div class="dish" dishName="steak_ribeye" dishNameRU="Рибай / Прайм" cost="1240">
+            <span class="dishInfo">
+                <span class="name">Рибай / Прайм (за 100 г)</span> - <span class="cost">1240р.</span>
+            </span>
+            <br>Добавки:
+            <span class="adds">
+                <span class="add" cost="200" addNameRU="Копченый сыр">Копченый сыр (+200р.)</span>
+                <span class="add" cost="240" addNameRU="Костный мозг">Костный мозг (+240р.)</span>
+                <span class="add" cost="250" addNameRU="Белые грибы">Белые грибы (+250р.)</span>
+                <span class="add" cost="300" addNameRU="Фуа-гра">Фуа-гра (+300р.)</span>
+            </span>
+        </div>
+
+        <div class="dish" dishName="steak_striploin" dishNameRU="Стриплойн / Прайм" cost="890">
+            <span class="dishInfo">
+                <span class="name">Стриплойн / Прайм (за 100 г)</span> - <span class="cost">890р.</span>
+            </span>
+            <br>Добавки:
+            <span class="adds">
+                <span class="add" cost="200" addNameRU="Копченый сыр">Копченый сыр (+200р.)</span>
+                <span class="add" cost="240" addNameRU="Костный мозг">Костный мозг (+240р.)</span>
+                <span class="add" cost="250" addNameRU="Белые грибы">Белые грибы (+250р.)</span>
+            </span>
+        </div>
+
+        <div class="dish" dishName="lamb_rack" dishNameRU="Каре ягненка" cost="650">
+            <span class="dishInfo">
+                <span class="name">Каре ягненка (за 100 г)</span> - <span class="cost">650р.</span>
+            </span>
+            <br>Добавки:
+            <span class="adds">
+                <span class="add" cost="200" addNameRU="Копченый сыр">Копченый сыр (+200р.)</span>
+                <span class="add" cost="250" addNameRU="Белые грибы">Белые грибы (+250р.)</span>
+            </span>
+        </div>
+
+        <div class="dish" dishName="pork_ribs" dishNameRU="Свиные ребра" cost="420">
+            <span class="dishInfo">
+                <span class="name">Свиные ребра (за 100 г)</span> - <span class="cost">420р.</span>
+            </span>
+            <br>Добавки:
+            <span class="adds">
+                <span class="add" cost="200" addNameRU="Копченый сыр">Копченый сыр (+200р.)</span>
+            </span>
+        </div>
+
+        <div class="dish" dishName="beef_tongues" dishNameRU="Говяжьи языки" cost="480">
+            <span class="dishInfo">
+                <span class="name">Говяжьи языки (за 100 г)</span> - <span class="cost">480р.</span>
+            </span>
+            <br>Добавки:
+            <span class="adds">
+                <span class="add" cost="250" addNameRU="Белые грибы">Белые грибы (+250р.)</span>
+            </span>
+        </div>
+        <h3>Супы</h3>
+        <div class="dish" dishName="chicken_noodles" dishNameRU="Куриная лапша" cost="550">
+            <span class="dishInfo">
+                <span class="name">Куриная лапша</span> - <span class="cost">550р.</span>
+            </span>
+        </div>
+
+        <div class="dish" dishName="tom_yam" dishNameRU="Том ям с креветками BBQ" cost="690">
+            <span class="dishInfo">
+                <span class="name">Том ям с креветками BBQ</span> - <span class="cost">690р.</span>
+            </span>
+        </div>
+        <h3>Салаты</h3>
+        <div class="dish" dishName="caesar_salad" dishNameRU="Цезарь с креветками" cost="950">
+            <span class="dishInfo">
+                <span class="name">Цезарь с креветками и жареным сыром халуми</span> - <span class="cost">950р.</span>
+            </span>
+        </div>
+        <h3>Десерты</h3>
+        <div class="dish" dishName="dessert_medovik" dishNameRU="Медовик" cost="390">
+            <span class="dishInfo">
+                <span class="name">Медовик</span> - <span class="cost">390р.</span>
+            </span>
+        </div>
+
+        <div class="dish" dishName="dessert_canele" dishNameRU="Канеле" cost="170">
+            <span class="dishInfo">
+                <span class="name">Канеле</span> - <span class="cost">170р.</span>
+            </span>
+        </div>
+    </div>
+    <br>
+    <input type="button" value="Добавить" class="submit">
+    <div class="receipt">
+        <h2>Чек:</h2>
+        <div class="receipt-list"></div>
+        <div class="total-sum"><h3>Итого: 0р.</h3></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
