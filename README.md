@@ -1,5 +1,7 @@
 Всем привет
 
+<img width="763" height="1080" alt="image" src="https://github.com/user-attachments/assets/dbfb3117-5e08-426e-af6f-a4b9033ce941" />
+
 
 
 💻 Описание проекта: "Интерактивная галерея изображений" 🎨
