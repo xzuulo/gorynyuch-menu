@@ -99,8 +99,8 @@ function change_count(buttonElement, operation){
         countSpan.textContent = count
         costSpan.textContent = singleCost * count + "р."
 
-    update_total()
     }
+    update_total()
 }
 
 function create_receipt(receiptObject,count,selectedDish,dishCost,dishAdds){
